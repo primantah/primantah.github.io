@@ -1,0 +1,29 @@
+h2 {
+    /*jadi semua yg h2 kena efek cuy*/
+    color: #A52A2A;
+    font-size: 130%;
+    text-shadow: 3px 4px 3px white;
+}
+
+p.sansserif {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    background-color: brown;
+    color: white;
+    padding: 1px;
+}
+
+p.normal {
+    letter-spacing: normal;
+}
+
+p.project {
+    padding: 10px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: blue;
+    font-family: sans-serif;
+    max-width: 500px;
+}
