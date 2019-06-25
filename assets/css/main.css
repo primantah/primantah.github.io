@@ -9,10 +9,28 @@ p.sansserif {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.header {
-    background-color: brown;
-    color: white;
+header {
+    background-image: url("../../images/kaki.jpg");
+    color: black;
     padding: 1px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.project {
+    background-image: url("../../images/kaki.jpg");
+    color: black;
+    padding: 1px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.extras {
+    background-color: sandybrown;
+    color: black;
+    padding: 1px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 p.normal {
@@ -26,4 +44,13 @@ p.project {
     border-color: blue;
     font-family: sans-serif;
     max-width: 500px;
+}
+
+ul.circle {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+a:hover {
+    color: red;
 }
