@@ -9,6 +9,10 @@ p.sansserif {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+span {
+    display: block;
+}
+
 header {
     background-image: url("../../images/kaki.jpg");
     color: black;
@@ -31,6 +35,13 @@ header {
     padding: 1px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+nav {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    color: red;
 }
 
 p.normal {
