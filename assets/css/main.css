@@ -57,6 +57,13 @@ p.project {
     max-width: 500px;
 }
 
+p.button {
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
 ul.circle {
     list-style-type: circle;
     list-style-position: inside;
