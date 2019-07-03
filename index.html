@@ -9,14 +9,15 @@
 </head>
 
 <body>
+    <div id="page-wrapper">
     <header>
         <div class="header">
-            <p align="center" class="sansserif">
+            <p align="center" class="header-text">
                 <big><big> Primanta Holand Bangun </big></big>
                 <hr width="210px" />
             </p>
 
-            <p align="center" class="sansserif">
+            <p align="center" class="header-text">
                 <big><i>Online Resume</i></big>
             </p>
             <hr align=" center" />
@@ -25,16 +26,18 @@
     <!--END OF HEADER-->
 
     <!--START OF NAV-->
-    <nav>
-        <ul class="circle">
-            <span style="color: brown"><big></big><i>
-                <li><a href="#">PROFILE</a></li>
-                <li><a href="#">EXPERIENCES</a></li>
-                <li><a href="#">ABILITIES</a></li>
-                <li><a href="#">PROJECTS</li>
-                <li><a href="#">CONTACTS</a></li>
-                <li><a href="#">EXTRAS</a></li> </i></big></big></br>
-            </span>
+    <nav id="nav">
+        <div id="menu">
+            <ul class="circle">
+                <span style="color: brown"><big></big><i>
+                    <li><a href="#">PROFILE</a></li>
+                    <li><a href="#">EXPERIENCES</a></li>
+                    <li><a href="#">ABILITIES</a></li>
+                    <li><a href="#">PROJECTS</li>
+                    <li><a href="#">CONTACTS</a></li>
+                    <li><a href="#">EXTRAS</a></li> </i></big></big></br>
+                </span>
+            </div>
         </ul>
     </nav>
     <!--END OF NAV-->
@@ -65,11 +68,13 @@
 
         </p>
 
-        <p align="center" class="sansserif">
-            <img src="images/prima.jpg" height="30%" width="30%"
-                border="10px" alt="" />
-        </p>
-
+        <div class="photo-profile">
+            <p align="center" class="sansserif">
+                <img src="images/prima.jpg" height="30%" width="30%"
+                    border="10px" alt="" />
+            </p>
+        </div>
+    
         <p class="sansserif">
             <big><i><span style="color:brown">Details</span></i></big></br>
             <b>Name:</b></br>
@@ -159,6 +164,21 @@
                         </video>
                     </aside>
                 </p>
+
+                <p class="sansserif">
+                        <b>HIMPUNAN MAHASISWA ELEKTROTEKNIK INSTITUT TEKNOLOGI BANDUNG</b> (HME ITB)</br>
+                        <i>ELECTROTECHNICAL STUDENT ASSOCIATION</i></br>
+                        (August 2018 -- curent)</br>
+                        HME ITB is a undergraduate student organization whom majoring in electrical engineering, biomedical engineering, electrical power engineering in Bandung Institute of Technology. </br>
+
+                        <ul>
+                                <li><i><b>Research Staff</b></i></br>
+                                    (March 2019 -- curent)</br>
+                                    Do some research about current electrical engineering issue
+                            </ul>
+                </p>
+
+
             </p>
         </div>
     </section>
@@ -356,8 +376,9 @@
             &copy; 2019 Primanta's Website. All rights reserved.
         </div>
     </footer>
+    </div>
 
-    <!--SCRIPT-->
+    <!--SCRIPTS-->
     <script type="text/javascript" src="assets/js/main.js"></script>
 
 </body>
