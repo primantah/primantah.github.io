@@ -46,6 +46,8 @@ p.header-text {
 
 
 .project {
+
+
     background-image: url("../../images/kaki.jpg");
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/kaki.jpg");
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/kaki.jpg");
@@ -55,6 +57,10 @@ p.header-text {
     padding: 1px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+
+
+
 }
 
 .extras {
@@ -85,6 +91,7 @@ p.project {
     border-color: blue;
     font-family: sans-serif;
     max-width: 500px;
+
 }
 
 p.button {
